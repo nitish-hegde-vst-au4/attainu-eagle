@@ -1,0 +1,39 @@
+mkdir <dir> - creates new directory
+ls - lists files of current directory
+ls -a - lists all files including hidden files of current directory
+ls -al - extended version of ls -a showing log too
+cd <path>/ - changes current directory w.r.t <path>
+pwd - displays full path of present working directory
+touch <file> - creates new file
+vim <file> - lets you edit the <file> ; i, esc- changes mode from readable to writable and vice versa respectively
+:wq - saves changes and quits the editor
+:q! - discards changes made and quits the editor
+cat <file> - displays content of file
+rm -R - removes contents of directory recursively
+rm -Ri - asks every time whether to remove or not the contents of directory
+cp <src> <dest> - copies contents of <src> to <dest>
+mv <src> <dest> - moves or renames <src> to <dest>
+clear - clears terminal screen
+reset - clears commands history of terminal
+git —version - displays version of git
+git config —global user.name - displays name of the user
+git config —global user.email - displays email of the user
+git init - initialises git in the dir to be tracked
+git status - displays the branch name and which files are  created, modified, committed 
+git add <file> - prepares <file> to be staged
+git commit -m “message” - prepares file to be pushed and explains the changes in form of a message
+git remote add origin <github repo url> - sets up a link between local and remote repo so that files can be pushed
+git remote -v - displays url of remote repo
+git push -u origin master - pushed the committed files on the master branch in remote repo whose url is saved in origin
+git remote set-url origin <repo url>  - changes the remote repo from previous one to the new repo whose url is set in origin
+git reset <file> - moves files from staging area
+git add . / git add -A - prepare all the files in current dir to staging area
+git log - displays all the commits done, the author, date and the commit message
+git clone <repo url> - clones remote repo to local directory
+git pull origin master- pulls changes made in remote repo represented by origin to local machine 
+git branch - displays the present working branch 
+git branch <branch> - creates and points a new branch <branch>  
+git checkout - used to switch branches
+git checkout -b <branch> - switches branch to new branch <branch>
+git merge <branch> - merges files in <branch>  with the current branch files
+git diff - displays the changes made in the repo
