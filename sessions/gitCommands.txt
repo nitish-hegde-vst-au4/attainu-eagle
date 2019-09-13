@@ -1,20 +1,3 @@
-mkdir <dir> - creates new directory
-ls - lists files of current directory
-ls -a - lists all files including hidden files of current directory
-ls -al - extended version of ls -a showing log too
-cd <path>/ - changes current directory w.r.t <path>
-pwd - displays full path of present working directory
-touch <file> - creates new file
-vim <file> - lets you edit the <file> ; i, esc- changes mode from readable to writable and vice versa respectively
-:wq - saves changes and quits the editor
-:q! - discards changes made and quits the editor
-cat <file> - displays content of file
-rm -R - removes contents of directory recursively
-rm -Ri - asks every time whether to remove or not the contents of directory
-cp <src> <dest> - copies contents of <src> to <dest>
-mv <src> <dest> - moves or renames <src> to <dest>
-clear - clears terminal screen
-reset - clears commands history of terminal
 git —version - displays version of git
 git config —global user.name - displays name of the user
 git config —global user.email - displays email of the user
